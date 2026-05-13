@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, ".", "");
 
   return {
-    base: "/repository-name/", // <-- এটা add করো
+    base: "/Nahar_Bakery/", // <-- এটা add করো
 
     plugins: [react(), tailwindcss()],
 
